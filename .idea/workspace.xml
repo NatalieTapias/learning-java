@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96f7a975-c886-4ccd-909f-fdf98f61beb7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WRPL3QW1s2TOwEk0LFhNm675NJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/com/spelldictionary" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DictionaryNames">
+    <configuration name="DataManipulationFromCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataManipuation.DataManipulationFromCSV" />
+      <module name="java-csv-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataManipuation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataManipuation.DictionaryNames" />
+      <module name="java-csv-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataManipuation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.FileDemo" />
+      <module name="java-csv-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataManipuation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spelldictionary.Main" />
+      <module name="java-csv-reader" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spelldictionary.OutWrite" />
+      <module name="java-csv-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spelldictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.OutWrite" />
+      <item itemvalue="Application.FileDemo" />
+      <item itemvalue="Application.DataManipulationFromCSV" />
+      <item itemvalue="Application.DictionaryNames" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DictionaryNames" />
+        <item itemvalue="Application.DataManipulationFromCSV" />
+        <item itemvalue="Application.FileDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.OutWrite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96f7a975-c886-4ccd-909f-fdf98f61beb7" name="Default Changelist" comment="" />
+      <created>1579109374482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579109374482</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1579200916984">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="133" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1579200916984" />
+    <state x="378" y="165" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579112320045">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="165" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579112320045" />
+    <state width="1238" height="219" key="GridCell.Tab.0.bottom" timestamp="1579213745483">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="219" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579213745483" />
+    <state width="1238" height="219" key="GridCell.Tab.0.center" timestamp="1579213745482">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="219" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579213745482" />
+    <state width="1238" height="219" key="GridCell.Tab.0.left" timestamp="1579213745481">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="219" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579213745481" />
+    <state width="1238" height="219" key="GridCell.Tab.0.right" timestamp="1579213745482">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="219" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579213745482" />
+    <state x="319" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1579130598075">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="319" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1579130598075" />
+    <state x="0" y="34" key="new project wizard" timestamp="1579205737160">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1579205737160" />
+    <state x="351" y="116" width="670" height="676" key="search.everywhere.popup" timestamp="1579206207607">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="351" y="116" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1579206207607" />
+  </component>
+</project>
