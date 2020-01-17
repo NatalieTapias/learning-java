@@ -42,20 +42,23 @@ public class FileDemo {
         File writeFile = new File("new_a.csv");
         writeFile.createNewFile();
 
-        // set up the BufferendReader using a new InputStreamReader of the file you are streaming
+        // set up the BufferedReader using a new InputStreamReader of the file you are streaming
         // BufferedReader reader = new BufferedReader( new InputStreamReader(new FileInputStream(path)));
 
         BufferedReader reader = new BufferedReader( new InputStreamReader(new FileInputStream(fileName)));
         FileWriter writer = new FileWriter(writeFile);
         String line = reader.readLine();
         writer.write(line);
-
-        while(line != null){
-            if(line.toString().length() > 4){
-                line = reader.readLine();
-                writer.write(line + "\n");
-            }
-        }
+        //line.length() tells you the lenth of the line (the word)
+////        System.out.println(line.length());
+//        while(line != null){
+//            if(line.length() > 4){
+//                // ****how does the reader know how to advance?
+//                line = reader.readLine();
+//                writer.write(line + "\n");
+//
+//            }
+//        }
         writer.close();
         reader.close();
     }
