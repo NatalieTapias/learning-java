@@ -10,6 +10,7 @@ public class FileDemo {
 //        https://www.youtube.com/watch?v=3YRahx2ltSg
         //files
         File path = new File("hello.txt");
+        path.createNewFile();
         System.out.println("We got a file " + path);
 
         System.out.println("Does it exist?" + path.exists());
@@ -34,21 +35,25 @@ public class FileDemo {
         //cool stream stuff
         // 1. open a url from the internet (an input stream, read the file from the internet one byte at a time)
         // a. first grab the file you want:
-        URL url = new URL("http://www.gutenberg.org/cache/epub/2265/pg2265.txt");
-        InputStream stream = url.openStream();
+//        URL url = new URL("http://www.gutenberg.org/cache/epub/2265/pg2265.txt");
+//        InputStream stream = url.openStream();
+
+        File fileName = new File("../EOWL-v1.1.2/CSV Format/A Words.csv");
+        File writeFile = new File("new_a.csv");
+
         // set up the BufferendReader using a new InputStreamReader of the file you are streaming
-        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
-        // read one line at a time
+        // BufferedReader reader = new BufferedReader( new InputStreamReader(new FileInputStream(path)));
+
+        BufferedReader reader = new BufferedReader( new InputStreamReader(new FileInputStream(fileName)));
+        FileWriter writer = new FileWriter(writeFile);
         String line = reader.readLine();
-        //while there is still material on the next line, keep reading
+        writer.write(line);
+
         while(line != null){
-            // this is where I would outputstream to file
-            System.out.println(line);
             line = reader.readLine();
+            writer.write(line + "\n");
         }
-        System.out.println("Done Reading!");
-        //output streams to write
-        //input to read from files
-        //scanner class to count all the words
+        writer.close();
+        reader.close();
     }
 }
