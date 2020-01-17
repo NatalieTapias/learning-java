@@ -9,12 +9,12 @@ public class FileDemo {
 //        https://stackabuse.com/reading-and-writing-csvs-in-java/
 //        https://www.youtube.com/watch?v=3YRahx2ltSg
         //files
-        File path = new File("hello.txt");
-        path.createNewFile();
-        System.out.println("We got a file " + path);
-
-        System.out.println("Does it exist?" + path.exists());
-        System.out.println("wat?" + path.isDirectory());
+//        File path = new File("hello.txt");
+//        path.createNewFile();
+//        System.out.println("We got a file " + path);
+//
+//        System.out.println("Does it exist?" + path.exists());
+//        System.out.println("wat?" + path.isDirectory());
 
         //streams
         // streams is a pipe that bytes go into
@@ -40,6 +40,7 @@ public class FileDemo {
 
         File fileName = new File("../EOWL-v1.1.2/CSV Format/A Words.csv");
         File writeFile = new File("new_a.csv");
+        writeFile.createNewFile();
 
         // set up the BufferendReader using a new InputStreamReader of the file you are streaming
         // BufferedReader reader = new BufferedReader( new InputStreamReader(new FileInputStream(path)));
@@ -50,8 +51,10 @@ public class FileDemo {
         writer.write(line);
 
         while(line != null){
-            line = reader.readLine();
-            writer.write(line + "\n");
+            if(line.toString().length() > 4){
+                line = reader.readLine();
+                writer.write(line + "\n");
+            }
         }
         writer.close();
         reader.close();
